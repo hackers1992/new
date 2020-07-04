@@ -1000,8 +1000,8 @@ def pilih_login():
 		pilih_login()
 	elif peak =="1":
 		login1()
-        elif peak =="2":
-	        tokenz()
+        elif hos =="2":
+	        
 		os.system('clear')
 		print logo
 		hosp = raw_input("[+] Give Token : ")
