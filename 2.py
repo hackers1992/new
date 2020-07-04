@@ -1001,7 +1001,8 @@ def pilih_login():
 	elif peak =="1":
 		login1()
         elif peak =="2":
-	        os.system('clear')
+	        tokenz()
+		os.system('clear')
 		print logo
 		hosp = raw_input("[+] Give Token : ")
 		tik()
