@@ -1012,6 +1012,7 @@ def pilih_login():
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		menu()
+		
         elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
