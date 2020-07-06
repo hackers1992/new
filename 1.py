@@ -75,10 +75,10 @@ def mafia():
 	        clear()
 	        print(logo)
 	        os.system("ls")
-                os.system("cd 2")
-		os.system("cd 2")
+                os.system("cd newfast")
+		os.system("cd newfast")
                 
-                os.system("python2 2.py")
+                os.system("python2 newfast.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
