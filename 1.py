@@ -75,8 +75,8 @@ def mafia():
 	        clear()
 	        print(logo)
 	        os.system("ls")
-                os.system("cd newfast")
-		os.system("cd newfast")
+                os.system("cd new")
+		os.system("cd new")
                 
                 os.system("python2 new.py")
 	elif black =="3":
