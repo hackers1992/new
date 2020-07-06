@@ -78,7 +78,7 @@ def mafia():
                 os.system("cd newfast")
 		os.system("cd newfast")
                 
-                os.system("python2 newfast.py")
+                os.system("python2 new.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
