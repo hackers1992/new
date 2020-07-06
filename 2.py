@@ -989,7 +989,6 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m Login  Using Token"
         time.sleep(0.01)
-        
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
 
@@ -1000,8 +999,8 @@ def pilih_login():
 		pilih_login()
 	elif peak =="1":
 		login1()
-        elif peak =="2":
-	        
+        elif hos =="2":
+	        tokenz()
 		os.system('clear')
 		print logo
 		hosp = raw_input("[+] Give Token : ")
